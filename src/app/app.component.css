@@ -1,0 +1,24 @@
+.container {
+  padding-top: 10%;
+  margin: 0 auto;
+  width: 40%;
+  gap: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  width: 180px;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.download-btn {
+  margin-top: 2%;
+}
+
+::ng-deep qr-code canvas {
+  border-radius: 5%;
+}
